@@ -109,31 +109,31 @@ h4,
 
 /* WoW - specific */
 #homepage #home-game-wow .game-promo { background: url("homepage/wow-cn.png") 0 0 no-repeat; }
-.ie6 #homepage #home-game-wow .game-promo { background: url("homepage/wow-cn.gif") 0 0 no-repeat; }
+
 
 /* SC2 - specific */
-#homepage #home-game-sc2 .game-promo { background: url("homepage/starcraft2-cn.png") 0 0 no-repeat; }
-.ie6 #homepage #home-game-sc2 .game-promo { background: url("homepage/starcraft2-cn.gif") 0 0 no-repeat; }
+#homepage #home-game-sc2 .game-promo { background: url("homepage/chuanqi.png") 0 0 no-repeat; }
+
 
 /* StarCraft - specific */
-#homepage #home-game-starcraft .game-promo { background: url("homepage/starcraft-cn.jpg") 0 0 no-repeat; }
-.ie6 #homepage #home-game-starcraft .game-promo { background: url("homepage/starcraft-cn.jpg") 0 0 no-repeat; }
+#homepage #home-game-starcraft .game-promo { background: url("homepage/bairimen.png") 0 0 no-repeat; }
+
 
 /* D3 - specific */
-#homepage #home-game-d3 .game-promo { background: url("homepage/diablo3-cn.png") 0 0 no-repeat; }
-.ie6 #homepage #home-game-d3 .game-promo { background: url("homepage/diablo3-cn.png") 0 0 no-repeat; }
+#homepage #home-game-d3 .game-promo { background: url("homepage/xiyou.png") 0 0 no-repeat; }
+
 
 /* Hearthstone- specific */
-#homepage #home-game-hs .game-promo { background: url("homepage/hearthstone-cn.png") 0 0 no-repeat; }
-.ie6 #homepage #home-game-hs .game-promo { background: url("homepage/hearthstone-cn.gif") 0 0 no-repeat; }
+#homepage #home-game-hs .game-promo { background: url("homepage/1000y.png") 0 0 no-repeat; }
+
 
 /* Heroes- specific */
-#homepage #home-game-heroes .game-promo { background: url("homepage/heroes-cn.png") 0 0 no-repeat; }
-.ie6 #homepage #home-game-heroes .game-promo { background: url("homepage/heroes-cn.gif") 0 0 no-repeat; }
+#homepage #home-game-heroes .game-promo { background: url("homepage/changshengjue.png") 0 0 no-repeat; }
+
 
 /* Overwatch- specific */
-#homepage #home-game-overwatch .game-promo { background: url("homepage/overwatch-cn.png") 0 0 no-repeat; }
-.ie6 #homepage #home-game-overwatch .game-promo { background: url("homepage/overwatch-cn.gif") 0 0 no-repeat; }
+#homepage #home-game-overwatch .game-promo { background: url("homepage/dnf.png") 0 0 no-repeat; }
+
 
 /* Destiny 2 - specific */
 #homepage #home-game-destiny2 { display: none !important; }

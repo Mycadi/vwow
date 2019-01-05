@@ -199,12 +199,14 @@ body .ui-context .context .context-links a { background-image: url("../images/ic
 #layout-top { background: url("../images/layout/bg-sides.png") bottom center repeat-x; }
 .landing-classic #layout-top { height: 260px; }
 #layout-top .wrapper { position: relative; }
-#layout-middle { background: #d3d1ce url("../images/layout/bg-middle.jpg") top center repeat-x; border-bottom: 4px solid #777674; }
+#layout-middle { background: #d3d1ce url("../images/layout/bg-middle.jpg") top center repeat-x; border-bottom: 4px solid #777674;border-top: 4px solid #777674; }
 #layout-bottom { background: #000; }
 
 /* header */
 #header { padding-top: 50px; clear: both; }
-#logo { height: 92px; width:402px; position: relative; z-index: 75; margin-bottom: 10px; }
+#logo { height: 100px; width:400px; position: relative; z-index: 75; margin-bottom: 50px;margin-left:8px;font-size:50px; }
+.bttxt { height: 60px; width:800px; position: relative; z-index: 75;margin-left:8px;font-size:24px; }
+.btxt { height: 120px; width:800px; position: relative; z-index: 75;margin-left:8px;font-size:18px; }
 #logo a,
 #logo span { width: 402px; height: 92px; display: block; border: none; text-indent: -9999px; background: url("../local-common/images/logos/bnet-default.png") no-repeat;  }
 
