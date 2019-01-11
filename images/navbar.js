@@ -481,23 +481,23 @@ var Navbar = {
 			return;
 		}
 
-		var collapsedItems = document.querySelector('.Navbar-collapsedItems');
-		if (collapsedItems) {
-			if (Navbar.useCollapsedDesktop(navbarItems)) {
-				navbarItems.classList.add('is-visible');
-				collapsedItems.classList.remove('is-hidden');
-			} else {
-				navbarItems.classList.remove('is-visible');
-				collapsedItems.classList.add('is-hidden');
-			}
-		}
+		// var collapsedItems = document.querySelector('.Navbar-collapsedItems');
+		// if (collapsedItems) {
+		// 	if (Navbar.useCollapsedDesktop(navbarItems)) {
+		// 		navbarItems.classList.add('is-visible');
+		// 		collapsedItems.classList.remove('is-hidden');
+		// 	} else {
+		// 		navbarItems.classList.remove('is-visible');
+		// 		collapsedItems.classList.add('is-hidden');
+		// 	}
+		// }
 	},
 	useCollapsedDesktop: function (navbarItemsDiv) {
-		var profileItemsRect = document.querySelector('.Navbar-desktop .Navbar-profileItems').getBoundingClientRect();
+		//var profileItemsRect = document.querySelector('.Navbar-desktop .Navbar-profileItems').getBoundingClientRect();
 		var navbarItemsRect = navbarItemsDiv.getBoundingClientRect();
 		var viewportWidth = Navbar.calcViewportWidth();
 		var widthOfNavItems = navbarItemsRect.right;
-		var widthOfAccountMenu = viewportWidth - profileItemsRect.left;
+		//var widthOfAccountMenu = viewportWidth - profileItemsRect.left;
 		var totalWidth = widthOfNavItems + widthOfAccountMenu;
 
 		var isOverlapping = totalWidth >= viewportWidth;
@@ -786,9 +786,9 @@ var Navbar = {
 					console.error(err);
 				}
 			},
-			function (err) {
-				console.error('Couldn\'t retrieve notification count', err);
-			}
+			// function (err) {
+			// 	console.error('Couldn\'t retrieve notification count', err);
+			// }
 		);
 	},
 	showPromotion: function (promotion, promotionId, imageUrl, label, text, linkText, linkUrl) {
@@ -890,11 +890,11 @@ var Navbar = {
 
 	checkSupportNotifications: function (root) {
 		var supportEndpoint = root.getAttribute('data-support-url');
-		var callbackName = 'NavbarSupportTicketCallback' + (new Date()).getTime() + '_' + Math.round(Math.random() * 100000);
-		window[callbackName] = Navbar.setSupportNotificationCount.bind(Navbar, root);
+		//var callbackName = 'NavbarSupportTicketCallback' + (new Date()).getTime() + '_' + Math.round(Math.random() * 100000);
+		//window[callbackName] = Navbar.setSupportNotificationCount.bind(Navbar, root);
 
 		var script = document.createElement('script');
-		script.src = supportEndpoint + 'window.' + callbackName;
+		//script.src = supportEndpoint + 'window.' + callbackName;
 
 		document.getElementsByTagName('head')[0].appendChild(script);
 	},
@@ -935,7 +935,7 @@ var Navbar = {
 				if (this.status === 200) {
 					callback(this.responseText);
 				} else {
-					error(this.status);
+					//error(this.status);
 				}
 			}
 		}.bind(xhr, callback, error);
