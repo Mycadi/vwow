@@ -1,0 +1,54 @@
+/* css document */
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+q:before,q:after{content:''}
+abbr,acronym{border:0;font-variant:normal}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}
+input,textarea,select{*font-size:100%}
+a,a:hover,a:visited {text-decoration:none;color:inherit;}
+/*header*/
+.main{position: relative;}
+.header{height:86px;background:#171719; position:absolute; z-index:99; width: 100%;} /*background:rgba(30, 30, 30,0.5); */
+.icon_logo{ display: block; width:117px;height:117px;line-height:400px;overflow:hidden;background-image:url(logo.png);}
+.hd_title{float:left;padding-top:7px; position: relative;}
+.wrap {position:relative;width:1000px;margin:0 auto;}
+/* nav */
+.nav {position:absolute;top:40px;left:0;width:100%;min-width:1200px;height:130px;z-index:10;}
+.nav-list{position:relative;width:1200px;margin:0 auto;z-index:10;font-size:14px;font-weight:bold;}
+.nav-list li {float:left;width:125px;height:100px;line-height:100px;color:#fff;text-align:center;}
+.nav-list li:nth-child(5) {width:100px;}
+.nav-list li:nth-child(6) {margin-right: 0px;width: 132px;}
+.nav-list li:nth-child(8) {width: 140px;}
+.nav-list a span {margin:0 5px;font-weight:normal;font-size:14px;color:#696766;}
+.nav-list .cur {color:#c30d0d;}
+.nav-list .cur span{color:#761c18;}
+.nav-list a, .nav-list a:hover { color: #FFF;}
+#nav-logo {width:200px;}
+#nav-logo img {margin:10px 0;}
+/*footer*/ 
+.foot-cpright{min-width:880px;padding:20px 60px;height:102px;zoom:1;background:#000;}
+.f-left{float:left;display:inline;}
+.f-right{float:right;display:inline;}
+.foot-sprt{margin:0 2px;_margin:0 0}
+.foot-logos-game{display: inline-block;width:376px;height:57px;text-indent:-999em;overflow:hidden;margin:10px 0 0 10px;background:url(//game.gtimg.cn/images/mir/web201804/game-logo.jpg);}
+.foot-logos-game-lun{background:url(//ossweb-img.qq.com/images/rxcq/web20150413/gamelogo.png);width:131px;height:34px;}
+/*foot-info*/
+.foot-links,.foot-links a {color:#999; font-size: 12px;}
+.foot-info{padding:50px 0;letter-spacing: -4px;word-spacing: -4px;font-size:0;}
+.foot-info li{display:inline-block;*display:inline;zoom:1;vertical-align:top;letter-spacing: normal;word-spacing: normal;font-size:14px}
+.foot-info .gzweixin{width:255px;padding-right:60px}
+.foot-info .tips{width:325px;padding-right:60px}
+.foot-info .coop{width:260px;}
+.foot-info .coop-list li{display:block;}
+
+#gfooter{background: #000000}
+.foot_dark{width: 1100px;}
+.foot .sdo{margin: 0 0 10px 0;float: left;display: block;text-indent: -9999em;width: 160px;height: 86px;background-image: url(//ossweb-img.qq.com/images/mir/web201506/sdo.png);}
+/*  |xGv00|0c07e11ab64ed742c8c7cc4000c6648a */
